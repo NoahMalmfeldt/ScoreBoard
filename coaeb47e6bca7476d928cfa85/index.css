@@ -1,0 +1,39 @@
+body {
+    margin: 0;
+    background-color: #1B244A;
+    text-align: center;
+}
+
+@font-face {
+    font-family: timerUlil;
+    src: url(CursedTimerUlil-Aznm.ttf);
+}
+
+.container {
+    display: flex;
+    justify-content: space-around;
+}
+
+p {
+    background-color: #080001;
+    color: #F94F6D;
+    font-size: 80px;
+    margin: auto;
+    font-family: timerUlil;
+}
+
+.increment {
+    margin-top: 25px;
+    font-family: timerUlil;
+    height: 35px;
+    background-color: transparent;
+    border: solid 1px;
+    border-radius: 7px;
+}
+
+#newGame {
+    height: 35px;
+    background-color: #080001;
+    border: solid 1px;
+    border-radius: 7px;
+}
